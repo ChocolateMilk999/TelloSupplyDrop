@@ -5,10 +5,12 @@ from time import sleep
 
 tello = Tello()
 
+tello.takeoff()
+
 tello.connect()
 sleep(1)
 
-tello.move_up(183)
+tello.move_up(77)
 sleep(1)
 
 tello.move_forward(153)
